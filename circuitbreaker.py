@@ -1,5 +1,6 @@
 from functools import wraps
 from datetime import datetime, timedelta
+from builtins import (super)
 
 STATE_CLOSED = 'closed'
 STATE_OPEN = 'open'
